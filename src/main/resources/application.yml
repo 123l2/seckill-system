@@ -18,6 +18,11 @@ spring:
     username: guest
     password: guest
 
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
 seckill:
   stock-key-prefix: "seckill:stock:"
   order-key-prefix: "seckill:order:"
